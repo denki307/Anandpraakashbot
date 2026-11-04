@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup as  BSP
 from PRINCEMUSIC import app as PRINCE
-from pyrogram import filters
+from kurigram import filters
 url = "https://all-hashtag.com/library/contents/ajax_generator.php"
 
 @PRINCE.on_message(filters.command("hastag"))

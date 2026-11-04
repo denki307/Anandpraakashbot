@@ -3,8 +3,8 @@ import os
 from asyncio import gather
 from traceback import format_exc
 
-from pyrogram import filters
-from pyrogram.errors import (
+from kurigram import filters
+from kurigram.errors import (
     PeerIdInvalid,
     ShortnameOccupyFailed,
     StickerEmojiInvalid,

@@ -1,5 +1,5 @@
-from pyrogram import filters
-from pyrogram.types import InlineKeyboardMarkup, Message
+from kurigram import filters
+from kurigram.types import InlineKeyboardMarkup, Message
 
 import config
 from PRINCEMUSIC import YouTube, app

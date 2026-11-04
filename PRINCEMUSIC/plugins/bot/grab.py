@@ -1,7 +1,7 @@
 import re
 import json
 import requests
-from pyrogram import Client, filters, enums
+from kurigram import Client, filters, enums
 from PRINCEMUSIC import app
 
 def get_json_response(data):

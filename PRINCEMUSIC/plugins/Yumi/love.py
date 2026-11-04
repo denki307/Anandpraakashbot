@@ -1,4 +1,4 @@
-from pyrogram import Client, filters
+from kurigram import Client, filters
 import random
 from PRINCEMUSIC import app
 

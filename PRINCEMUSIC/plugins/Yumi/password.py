@@ -1,7 +1,7 @@
 import random, os
-from pyrogram import Client, filters, enums 
+from kurigram import Client, filters, enums 
 from PRINCEMUSIC import app
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from kurigram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
 @app.on_message(filters.command(["genpassword", 'genpw']))

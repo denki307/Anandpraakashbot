@@ -2,8 +2,8 @@ import os
 import shutil
 from re import findall
 from bing_image_downloader import downloader
-from pyrogram import Client, filters
-from pyrogram.types import InputMediaPhoto, Message
+from kurigram import Client, filters
+from kurigram.types import InputMediaPhoto, Message
 from PRINCEMUSIC import app
 
 @app.on_message(filters.command(["img", "image"], prefixes=["/", "!"]))

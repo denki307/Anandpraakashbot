@@ -3,7 +3,7 @@ import aiohttp
 import aiofiles
 from aiohttp import ContentTypeError
 from PRINCEMUSIC import app as app
-from pyrogram import filters
+from kurigram import filters
 
 def check_filename(filroid):
     if os.path.exists(filroid):

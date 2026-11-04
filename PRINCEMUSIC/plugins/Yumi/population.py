@@ -1,5 +1,5 @@
-from pyrogram import Client, filters
-from pyrogram.types import Message
+from kurigram import Client, filters
+from kurigram.types import Message
 import requests
 from PRINCEMUSIC import app
 

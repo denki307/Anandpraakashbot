@@ -12,7 +12,7 @@ from kurigram.errors import (
     StickerPngNopng,
     UserIsBlocked,
 )
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
+from kurigram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from PRINCEMUSIC import app
 from config import BOT_USERNAME
 from PRINCEMUSIC.utils.errors import capture_err

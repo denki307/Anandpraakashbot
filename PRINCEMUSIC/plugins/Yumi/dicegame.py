@@ -1,9 +1,9 @@
-from pyrogram import Client, enums, filters
+from kurigram import Client, enums, filters
 #from config import *
 import asyncio
 from PRINCEMUSIC import app as app
 
-from pyrogram.handlers import MessageHandler
+from kurigram.handlers import MessageHandler
 
 
 @app.on_message(filters.command("dice"))

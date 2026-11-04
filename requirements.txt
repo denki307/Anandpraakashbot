@@ -64,5 +64,5 @@ unidecode
 wget
 youtube-search
 youtube-search-python
-pyrogram
+kurigram
 git+https://github.com/yt-dlp/yt-dlp

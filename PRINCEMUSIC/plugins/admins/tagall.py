@@ -1,10 +1,10 @@
 from PRINCEMUSIC import app 
 import asyncio
 import random
-from pyrogram import Client, filters
-from pyrogram.enums import ChatType, ChatMemberStatus
-from pyrogram.errors import UserNotParticipant
-from pyrogram.types import ChatPermissions
+from kurigram import Client, filters
+from kurigram.enums import ChatType, ChatMemberStatus
+from kurigram.errors import UserNotParticipant
+from kurigram.types import ChatPermissions
 
 spam_chats = []
 

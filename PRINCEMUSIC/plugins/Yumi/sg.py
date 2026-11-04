@@ -1,9 +1,9 @@
 import asyncio
 import random
 
-from pyrogram import Client, filters
-from pyrogram.types import Message
-from pyrogram.raw.functions.messages import DeleteHistory
+from kurigram import Client, filters
+from kurigram.types import Message
+from kurigram.raw.functions.messages import DeleteHistory
 
 from PRINCEMUSIC import userbot as us, app
 from PRINCEMUSIC.core.userbot import assistants

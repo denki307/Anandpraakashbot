@@ -1,5 +1,5 @@
-from pyrogram import  filters
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from kurigram import  filters
+from kurigram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from PRINCEMUSIC.utils.Shukla_font import Fonts
 from PRINCEMUSIC import app

@@ -24,7 +24,7 @@ SOFTWARE.***
 
 import requests
 from PRINCEMUSIC import app
-from pyrogram import filters
+from kurigram import filters
 
 
 @app.on_message(filters.command("fake"))

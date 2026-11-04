@@ -1,7 +1,7 @@
 
-from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
-from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForbidden
+from kurigram import Client, filters
+from kurigram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
+from kurigram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForbidden
 from PRINCEMUSIC import app
 
 #--------------------------

@@ -8,6 +8,12 @@ from pyrogram import filters
 # ------------------------------------
 load_dotenv()
 # ------------------------------------
+
+# --- NEW: SHRUTI API CONFIGS ---
+SHRUTI_API_URL = getenv("SHRUTI_API_URL", "https://api.shrutibots.in")
+SHRUTI_API_KEY = getenv("SHRUTI_API_KEY", "YOUR_API_KEY") # Inga unga API key podunga illa Heroku vars la set pannunga
+# --------------------------------
+
 # -----------------------------------------------------
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")

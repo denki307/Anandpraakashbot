@@ -1,8 +1,8 @@
 from asyncio import sleep
-from pyrogram import filters
-from pyrogram.enums import ChatType
-from pyrogram.errors import MessageDeleteForbidden, RPCError
-from pyrogram.types import Message
+from kurigram import filters
+from kurigram.enums import ChatType
+from kurigram.errors import MessageDeleteForbidden, RPCError
+from kurigram.types import Message
 from PRINCEMUSIC.utils.Shukla_ban import admin_filter
 from PRINCEMUSIC import app
 

@@ -1,5 +1,5 @@
 import random
-from pyrogram import filters
+from kurigram import filters
 from PRINCEMUSIC import app
 from PRINCEMUSIC import *
 from ... import *
@@ -12,12 +12,12 @@ from PRINCEMUSIC.core.userbot import *
 
 import asyncio
 
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from kurigram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from config import OWNER_ID
 
 import asyncio
-from pyrogram import Client, filters
-from pyrogram.errors import FloodWait
+from kurigram import Client, filters
+from kurigram.errors import FloodWait
 from dotenv import load_dotenv
 from PRINCEMUSIC.core.userbot import Userbot
 from datetime import datetime

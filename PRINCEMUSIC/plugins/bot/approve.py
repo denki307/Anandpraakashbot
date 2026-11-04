@@ -2,8 +2,8 @@ from PRINCEMUSIC import app
 from os import environ
 from config import BOT_USERNAME
 import config
-from pyrogram import Client, filters
-from pyrogram.types import ChatJoinRequest, InlineKeyboardButton, InlineKeyboardMarkup
+from kurigram import Client, filters
+from kurigram.types import ChatJoinRequest, InlineKeyboardButton, InlineKeyboardMarkup
 from PIL import Image, ImageDraw, ImageFont
 from typing import Union, Optional
 

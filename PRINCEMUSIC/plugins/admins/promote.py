@@ -1,6 +1,6 @@
-from pyrogram import Client, filters, enums
-from pyrogram.types import ChatPrivileges
-from pyrogram.errors import ChatAdminRequired
+from kurigram import Client, filters, enums
+from kurigram.types import ChatPrivileges
+from kurigram.errors import ChatAdminRequired
 from functools import wraps
 from PRINCEMUSIC import app
 

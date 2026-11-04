@@ -4,8 +4,8 @@ import re
 from typing import Union
 import aiohttp
 import yt_dlp
-from pyrogram.enums import MessageEntityType
-from pyrogram.types import Message
+from kurigram.enums import MessageEntityType # Inga mathi iruken
+from kurigram.types import Message           # Inga mathi iruken
 from youtubesearchpython.__future__ import VideosSearch
 
 from PRINCEMUSIC.utils.database import is_on_off

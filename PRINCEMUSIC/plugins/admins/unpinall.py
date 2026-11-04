@@ -1,10 +1,10 @@
-from pyrogram import filters, enums
-from pyrogram.types import (
+from kurigram import filters, enums
+from kurigram.types import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,
     ChatPermissions
 )
-from pyrogram.errors.exceptions.bad_request_400 import (
+from kurigram.errors.exceptions.bad_request_400 import (
     ChatAdminRequired,
     UserAdminInvalid,
     BadRequest

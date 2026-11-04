@@ -1,6 +1,6 @@
 from PRINCEMUSIC import app
-from pyrogram import filters,enums
-from pyrogram.types import ChatPermissions 
+from kurigram import filters,enums
+from kurigram.types import ChatPermissions 
 from PRINCEMUSIC.utils.Shukla_ban import admin_filter
 
 @app.on_message(filters.command("unmuteall") & admin_filter)

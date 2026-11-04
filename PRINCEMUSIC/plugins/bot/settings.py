@@ -1,7 +1,7 @@
-from pyrogram import filters
-from pyrogram.enums import ChatType
-from pyrogram.errors import MessageNotModified
-from pyrogram.types import (
+from kurigram import filters
+from kurigram.enums import ChatType
+from kurigram.errors import MessageNotModified
+from kurigram.types import (
     CallbackQuery,
     InlineKeyboardButton,
     InlineKeyboardMarkup,

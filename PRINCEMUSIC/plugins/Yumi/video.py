@@ -6,8 +6,8 @@ import time
 from urllib.parse import urlparse
 
 import wget
-from pyrogram import filters
-from pyrogram.types import Message
+from kurigram import filters
+from kurigram.types import Message
 from youtubesearchpython import SearchVideos
 from yt_dlp import YoutubeDL
 

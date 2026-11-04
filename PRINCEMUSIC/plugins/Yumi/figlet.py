@@ -1,9 +1,9 @@
-from pyrogram import filters
+from kurigram import filters
 import asyncio
 import pyfiglet 
 from random import choice
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, CallbackQuery
-from pyrogram.handlers import MessageHandler
+from kurigram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, CallbackQuery
+from kurigram.handlers import MessageHandler
 from PRINCEMUSIC import app
 def figle(text):
     x = pyfiglet.FigletFont.getFonts()

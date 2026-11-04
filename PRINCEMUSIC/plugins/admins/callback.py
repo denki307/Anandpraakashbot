@@ -1,7 +1,7 @@
 import asyncio
 from telegram import CallbackQuery
-from pyrogram import filters
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from kurigram import filters
+from kurigram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from PRINCEMUSIC import YouTube, app
 from PRINCEMUSIC.core.call import PRINCE

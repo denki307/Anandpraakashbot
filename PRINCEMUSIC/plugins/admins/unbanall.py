@@ -1,7 +1,7 @@
 from PRINCEMUSIC import app
 from config import OWNER_ID
-from pyrogram import filters, enums
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from kurigram import filters, enums
+from kurigram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from PRINCEMUSIC.utils.Shukla_ban import admin_filter
 
 BOT_ID = "6824607634"

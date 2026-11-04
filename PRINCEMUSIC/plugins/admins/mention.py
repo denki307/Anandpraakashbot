@@ -1,7 +1,7 @@
 import asyncio
-from pyrogram.enums import ChatType, ChatMemberStatus
+from kurigram.enums import ChatType, ChatMemberStatus
 from PRINCEMUSIC import app
-from pyrogram import filters
+from kurigram import filters
 from PRINCEMUSIC.utils.Shukla_ban import admin_filter
 
 

@@ -1,8 +1,8 @@
 import logging
-from pyrogram.types import Message
+from kurigram.types import Message
 from youtube_search import YoutubeSearch
 from PRINCEMUSIC import app
-from pyrogram import filters
+from kurigram import filters
 from config import BOT_USERNAME
 
 

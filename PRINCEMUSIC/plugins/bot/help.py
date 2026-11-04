@@ -1,6 +1,6 @@
 from typing import Union
-from pyrogram import filters, types
-from pyrogram.types import InlineKeyboardMarkup, Message, InlineKeyboardButton
+from kurigram import filters, types
+from kurigram.types import InlineKeyboardMarkup, Message, InlineKeyboardButton
 from PRINCEMUSIC import app
 from PRINCEMUSIC.utils import help_pannel
 from PRINCEMUSIC.utils.database import get_lang

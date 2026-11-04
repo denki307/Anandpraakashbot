@@ -1,7 +1,7 @@
 from PRINCEMUSIC import app 
 import requests as r
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup 
-from pyrogram import filters 
+from kurigram.types import InlineKeyboardButton, InlineKeyboardMarkup 
+from kurigram import filters 
 
 API_URL = "https://sugoi-api.vercel.app/search"
 

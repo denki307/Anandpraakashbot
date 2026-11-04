@@ -1,5 +1,5 @@
-from pyrogram import Client, filters
-from pyrogram.types import Message
+from kurigram import Client, filters
+from kurigram.types import Message
 from PRINCEMUSIC import app
 
 @app.on_message(filters.command("groupinfo", prefixes="/"))

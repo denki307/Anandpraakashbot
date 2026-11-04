@@ -1,5 +1,5 @@
-from pyrogram import filters
-from pyrogram.types import Message
+from kurigram import filters
+from kurigram.types import Message
 
 from PRINCEMUSIC import YouTube, app
 from PRINCEMUSIC.core.call import PRINCE

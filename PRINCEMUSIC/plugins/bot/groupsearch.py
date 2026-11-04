@@ -1,5 +1,5 @@
-from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from kurigram import Client, filters
+from kurigram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import aiohttp
 import re
 import os

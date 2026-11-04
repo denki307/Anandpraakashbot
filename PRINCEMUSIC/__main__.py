@@ -1,6 +1,26 @@
 import asyncio
 import importlib
 
+# --- KURIGRAM BUTTON PATCH START ---
+from kurigram.types import InlineKeyboardButton, ButtonStyle
+
+original_button_init = InlineKeyboardButton.__init__
+
+def custom_button_init(self, text, callback_data=None, style=None, **kwargs):
+    if style is None:
+        text_lower = text.lower()
+        if "❌" in text or "close" in text_lower or "cancel" in text_lower or "back" in text_lower:
+            style = ButtonStyle.DANGER
+        elif "✅" in text or "add" in text_lower or "pay" in text_lower or "success" in text_lower:
+            style = ButtonStyle.SUCCESS
+        else:
+            style = ButtonStyle.PRIMARY 
+            
+    original_button_init(self, text=text, callback_data=callback_data, style=style, **kwargs)
+
+InlineKeyboardButton.__init__ = custom_button_init
+# --- KURIGRAM BUTTON PATCH END ---
+
 from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
@@ -50,7 +70,7 @@ async def init():
         pass
     await PRINCE.decorators()
     LOGGER("PRINCEMUSIC").info(
-        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗠𝗥 𝗣𝗥𝗜𝗡𝗖𝗘\n╚═════ஜ۩۞۩ஜ════╝"
+        "╔═════ஜ۩۞۩ஜ════╗\n  ☠𝗠𝗔𝗗𝗘 𝗕𝗬 𝗠𝗥 𝗣𝗥𝗜𝗡𝗖𝗘\n╚═════ஜ۩۞۩ஜ════╝"
     )
     await idle()
     await app.stop()
